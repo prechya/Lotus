@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../CSS/Style.CSS">
+<meta charset="utf-8">
+<title>.</title>
+</head>
+<link rel="shortcut icon" href="Images/Favicon.ico"/>
+<body>
+<div class="container" align="center">
+<header>
+	<Nav class="navigation">
+    <ul>
+<li><a href="Index.html">HOME</a></li>
+<li><a href="Therapy.html">THERAPY</a></li>
+<li><a href="Appointments.html">APPOINTMENTS</a></li>
+<li><a href="About Us.html">ABOUT US</a></li>
+<li><a href="Login.html">LOGIN</a></li>
+</ul>
+    </Nav>
+</Header>
+<Div Class="banner">
+</Div>
+<br>
+<Div Class="main">
+<div id="box">
+<form action="login_process.php" method="post">
+                    <label for="loginmsg">
+                    <?php  echo @$_GET['msg'];?></label>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username"><br>
+                    <label for="password">&nbsp;&nbsp;&nbsp;Password:</label>
+                    <input type="password" id="password" name="password">
+                    <div id="lower">
+                    <input type="checkbox">
+                    	<label class="check" for="checkbox">Keep me logged in
+                    	</label>
+                    <input type="submit" value="Login">
+                    </div>
+                </form>
+</div>
+</Div>
+<br>
+</div>
+<br>
+<Div Class="footer">
+<Footer>
+	<p align="right">Webpage by <a href="https://www.facebook.com/profile.php?id=100007371737915" target="_blank">Pari</a></p></Footer>
+</Div>
+</body>
+</html>
